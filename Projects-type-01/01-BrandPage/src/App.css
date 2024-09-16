@@ -3,3 +3,82 @@
 body {
   font-family: "Poppins";
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  height: 72px;
+  align-items: center;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+button {
+  background-color: #d01c28;
+  color: #fff;
+  width: 75px;
+  height: 31px;
+  top: 21px;
+  left: 1286px;
+  /* padding: 6px 16px 6px 16px; */
+  gap: 10px;
+  opacity: 0px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc (100vh - 72px);
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+.hero p {
+  font-weight: 660;
+  color: gray;
+  max-width: 360px;
+  margin-top: 6px;
+}
+
+.hero-button {
+  width: 150px;
+  height: 41px;
+  /* padding: 6px 16px 6px 16px; */
+  /* padding: 10px 50px 20px; */
+  gap: 40px;
+  opacity: 0px;
+  display: flex;
+  width: fit-content;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-btn {
+  background-color: transparent;
+  color: grey;
+  font-weight: 600;
+}
+
+.sites p {
+  font-size: 14px;
+  margin-bottom: 9px;
+}
