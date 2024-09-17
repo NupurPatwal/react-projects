@@ -10,9 +10,9 @@ const Navigation = () => {
       <ul>
         <li href="#">Menu</li>
         <li href="#">Location</li>
-        <li href="#">About</li>
-        <li href="#">contact</li>
-        <li href="#">Samaj m aay akya</li>
+        <li href="#">About us</li>
+        <li href="#">contact Us</li>
+        <li href="#">Complain</li>
       </ul>
       <button>login</button>
     </nav>
