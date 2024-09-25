@@ -9,7 +9,7 @@ const Navigation = () => {
           />
 
           <div
-            className="nav-bar all-content"
+            className="nav-bar all-content h-72px w-1440px"
             id="nav">
             <ul className="nav justify-content-end">
               <li className="nav-item">

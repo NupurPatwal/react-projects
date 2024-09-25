@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   font-family: "Poppins";
@@ -6,18 +6,31 @@ body {
 * {
   margin: 0;
   padding: 0;
-} */
-
-/* Change the color of the navigation links to red */
-/* Change the color of the navigation links to red and make font bold */
+}
 .nav-link {
-  color: red !important;
-  font-weight: bold; /* Makes the font bold */
-  transition: color 0.3s ease; /* Adds a smooth transition effect */
+  color: darkblue;
+  transition: color 0.3s ease;
 }
 
-/* Change color on hover */
 .nav-link:hover {
-  color: green; /* Changes color when hovered */
-  text-decoration: underline; /* Optional: adds underline on hover */
+  font-weight: bold;
+}
+.custom-paragraph {
+  width: 975px;
+  height: 72px;
+  position: absolute;
+  top: 220px;
+  left: 188px;
+}
+
+.custom-heading {
+  position: absolute;
+  top: 150px;
+  left: 188px;
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 72px;
+  width: 975px;
+  height: 72px;
 }
