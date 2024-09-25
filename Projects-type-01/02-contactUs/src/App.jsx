@@ -1,11 +1,13 @@
-// import { useState } from 'react'
+// import { useState } from "react";
+import './App.css';  // Import your custom CSS file
 
+import Navigation from "./Components/Navigation";
 function App() {
-
   return (
-  <>
-  <h1>Hello Contact Us</h1></>
-  )
+    <>
+      <Navigation></Navigation>
+    </>
+  );
 }
 
-export default App
+export default App;
