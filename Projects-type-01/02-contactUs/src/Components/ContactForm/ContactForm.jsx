@@ -21,8 +21,35 @@ const ContactForm = () => {
           isOutline={true}
           text="VIA EMail form"
           icon={<MdMail fontSize="24px" />}></Button>
+        <form action="./">
+          <div className={styles.form_control}>
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              name="name"
+            />
+          </div>
+          <div className={styles.form_control}>
+            <label htmlFor="email">Email </label>
+            <input
+              type="text"
+              name="name"
+            />
+          </div>
+          <div className={styles.form_control}>
+            <label htmlFor="message">Message </label>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"></textarea>
+          </div>
+        </form>
+        <Button text="SUBMIT BUTTON"></Button>
       </div>
-      <div className={`${styles.form_image}`}> </div>
+
+      <div className={`${styles.form_image} `}>
+        <img src="./images/heroImage.jpg" />
+      </div>
     </section>
   );
 };

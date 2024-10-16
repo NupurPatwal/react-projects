@@ -1,22 +1,12 @@
 import styles from "./Button.module.css";
 
-// const Button = (props) => {
-//   return (
-//     // <button className={styles.primary_btn}>
-//     <>
-//       <div className={`${styles.primary_btn}`}>
-//         {props.icon}
-//         {props.text}
-//       </div>
-//     </>
-//   );
-// };
 const Button = (props) => {
+  const { isOutline, icon, text } = props;
   if (!props.text && !props.icon) return null; // Prevent rendering empty buttons
   return (
-    <button className={styles.primary_btn}>
-      {props.icon}
-      {props.text}
+    <button className={isOutline ? styles.outline_btn : styles.primary_btn}>
+      {icon}
+      {text}
     </button>
   );
 };

@@ -2,9 +2,74 @@
   display: flex;
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .top_button {
   display: flex;
   gap: 24px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px; /* Added spacing between controls */
+  position: relative;
+}
+
+/* Styling for input fields */
+.form_control input {
+  height: 55px; /* Slightly increased height */
+  width: 100%; /* Ensure the input takes the full width of the form */
+  max-width: 500px; /* Limits the maximum width */
+  border: 1px solid #000;
+  margin-top: 12px; /* Reduced the top margin for better spacing */
+  padding: 0 12px; /* Increased padding for better user experience */
+  border-radius: 4px; /* Rounded corners for a smoother look */
+  font-size: 16px; /* Adjusted font size */
+}
+
+/* Styling for textarea */
+.form_control textarea {
+  height: 160px; /* Increased height for the text area */
+  width: 100%; /* Full width */
+  max-width: 500px; /* Limit the width */
+  border: 1px solid #000;
+  margin-top: 12px;
+  padding: 10px 12px; /* Added padding for better readability */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Text size adjustment */
+  resize: vertical; /* Allow resizing vertically */
+}
+
+/* Styling for label */
+.form_control label {
+  position: absolute;
+  top: -8px; /* Adjusted position to move slightly above the input */
+  left: 15px;
+  background-color: #fff;
+  padding: 0 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Improved general input focus styling */
+.form_control input:focus,
+.form_control textarea:focus {
+  outline: none;
+  border: 2px solid #007bff; /* Adds a blue border on focus */
 }

@@ -3,7 +3,7 @@ import styles from "./Navigation.module.css"
 const Navigation = () => {  
   return (
     <nav className={`${styles.Navigation} container`}>
-      <div className="nav-logo">Navigation
+      <div className="nav-logo">
       <img
         src="./images/frame.png"
         alt="do some coding logo"
