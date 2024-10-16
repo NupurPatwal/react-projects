@@ -7,30 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
-.nav-link {
-  color: darkblue;
-  transition: color 0.3s ease;
-}
 
-.nav-link:hover {
-  font-weight: bold;
-}
-.custom-paragraph {
-  width: 975px;
-  height: 72px;
-  position: absolute;
-  top: 220px;
-  left: 188px;
-}
-
-.custom-heading {
-  position: absolute;
-  top: 150px;
-  left: 188px;
-  font-family: "Poppins";
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 72px;
-  width: 975px;
-  height: 72px;
+/* container width */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }

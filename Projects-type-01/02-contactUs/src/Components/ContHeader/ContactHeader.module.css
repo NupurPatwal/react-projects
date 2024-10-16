@@ -1,0 +1,12 @@
+.ContactHeader {
+  padding: 20px;
+}
+
+.contactSection h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.contactSection p {
+  font-weight: 600;
+  font-style: italic;
+}

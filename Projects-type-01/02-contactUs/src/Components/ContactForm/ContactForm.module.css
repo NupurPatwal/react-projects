@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: brown;
+  font-weight: bold;
+}
+
+.form_image {
+  color: aquamarine;
+}
+.form_section {
+  color: bisque;
+}
